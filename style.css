@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#2F3485;
+}
+.e1{
+    margin: 5px 10px 5px 10px;
+    background-color: #6C8CD5 ;
+    border-radius: 5px;
+ 
+   
+}
+
+header>a{
+   text-align: center;  
+    color: white;
+    flex-grow: 1;
+    text-decoration: none;
+}
+.footer{
+    
+}
+
+html,body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
