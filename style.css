@@ -17,12 +17,18 @@ header>a{
     flex-grow: 1;
     text-decoration: none;
 }
-.footer{
-    
+footer{
+    background-color: #2F3485;
+    color: white;
+      
+    border-radius: 5px;
 }
 
 html,body{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+    text-align: center;
+    
 }
