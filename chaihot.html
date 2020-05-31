@@ -4,12 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Отели в Китае</title>
 </head>
 
 <body>
     <form action="china.html"> <button id="back" href="#">Вернуться назад</button></form>
         <style>
+                html,body{
+background-repeat: no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+/*background-image: url(asa.jpg);
+background-size: 300%;*/
+
+
+}
             #back{
    margin-left: 100px;
    width: 80px;
@@ -118,7 +128,7 @@
 
             Платная DIY прачечная находится на 2 этаже. На открытой кухне можно заказать блюда по меню или по меню, а в
             баре можно заказать напитки. Конференц-залы также предлагаются.
-            <p><a class="semi-transparent-button1" href="#">Забронировать</a></p>
+            <p><a id="kn1" class="semi-transparent-button1" href="#">Забронировать</a></p>
         </div>
         <img id="img1" src="chilol1.jpg" width="500" height="500">
         <img src="chilol2.jpg" width="500" height="500">
@@ -148,7 +158,7 @@
             В пешей доступности работает магазин IKEA. Международный аэропорт Дубая находится в 3 км от отеля Holiday
             Inn -
             Dubai Festival City.
-            <p><a class="semi-transparent-button" href="#">Забронировать</a></p>
+            <p><a id="kn2" class="semi-transparent-button" href="#">Забронировать</a></p>
         </div>
         <img id="img1" src="kakchi3.jpg" width="500" height="500">
         <img src="kakchi1.jpg" width="500" height="500">
@@ -173,8 +183,13 @@
             В просторном и ярком круглосуточном ресторане Pavilion вместимостью до 350 гостей сервируют «шведский стол»
             из блюд интернациональной кухни, а также готовят блюда кантонской кухни и местные сезонные популярные блюда.
             Лаундж отеля идеально подходит для расслабленного отдыха и общения. Здесь предлагают напитки и закуски.
-            <p><a class="semi-transparent-button2" href="#">Забронировать</a></p>
+            <p><a id="kn3" class="semi-transparent-button2" href="#">Забронировать</a></p>
         </div>
+        <script>
+            document.getElementById('kn1').onclick=function(){ alert("Для того, чтобы забронировать номер, звоните на наш номер - 8-918-632-51-65, или пишите на нашу почту - turag@mail.ru") }
+    document.getElementById('kn2').onclick=function(){ alert("Для того, чтобы забронировать номер, звоните на наш номер - 8-918-632-51-65, или пишите на нашу почту - turag@mail.ru") }
+    document.getElementById('kn3').onclick=function(){ alert("Для того, чтобы забронировать номер, звоните на наш номер - 8-918-632-51-65, или пишите на нашу почту - turag@mail.ru") }
+        </script>
 </body>
 
 </html>

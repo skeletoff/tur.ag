@@ -2,16 +2,14 @@
 
 
 html,body{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-   background-repeat: no-repeat;
-
+    background-repeat: no-repeat ;
     background-size: cover;
-    background-position: center;
-    background-blend-mode: multiply;;
-    background-image: url(asa.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+  background-image: url(asa.jpg);
+  
+  flex-direction: column;
+  background-repeat: no-repeat;
 }
 
 

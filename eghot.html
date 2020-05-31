@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Отели в Египте</title>
 </head>
 
 <body>
@@ -12,6 +12,16 @@
    
         <title>Поля</title>
         <style>
+            html,body{
+background-repeat: no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+/*background-image: url(asa.jpg);
+background-size: 300%;*/
+
+
+}
            #back{
    margin-left: 100px;
    width: 80px;
@@ -116,7 +126,7 @@
             Катакомбы Ком-эль-Шукафа находятся в 14 км от апартаментов, а торговый центр San Stefano Grand Plaza — в 1,4
             км. Ближайший аэропорт — это международный аэропорт Борг-эль-Араб, до которого 58 км от апартаментов Saraya
             eltram. За дополнительную плату организуется трансфер от/до аэропорта.
-            <p><a class="semi-transparent-button1" href="#">Забронировать</a></p>
+            <p><a id="kn1" class="semi-transparent-button1" href="#">Забронировать</a></p>
         </div>
         <img id="img1" src="egkak1.jpg" width="500" height="500">
         <img src="egkak2.jpg" width="500" height="500">
@@ -134,7 +144,7 @@
 
             Александрийский зоопарк находится в 4,3 км, а катакомбы Ком-эль-Шукафа — в 8 км. Расстояние от отеля Royal
             Crown до международного аэропорта Борг-эль-Араб составляет 52 км.
-            <p><a class="semi-transparent-button" href="#">Забронировать</a></p>
+            <p><a id="kn2" class="semi-transparent-button" href="#">Забронировать</a></p>
         </div>
         <img id="img1" src="loleg.jpg" width="500" height="500">
         <img src="loleg1.jpg" width="500" height="500">
@@ -155,8 +165,13 @@
             Отель находится в 400 метрах от театра Аль-Салам и моста Стэнли, а также в 1,5 км от железнодорожного
             вокзала Сиди-Габер. Расстояние до международного аэропорта Борг-эль-Араб составляет 42 км. За дополнительную
             плату предоставляется парковка.
-            <p><a class="semi-transparent-button2" href="#">Забронировать</a></p>
+            <p><a id="kn3" class="semi-transparent-button2" href="#">Забронировать</a></p>
         </div>
+<script>
+    document.getElementById('kn1').onclick=function(){ alert("Для того, чтобы забронировать номер, звоните на наш номер - 8-918-632-51-65, или пишите на нашу почту - turag@mail.ru") }
+    document.getElementById('kn2').onclick=function(){ alert("Для того, чтобы забронировать номер, звоните на наш номер - 8-918-632-51-65, или пишите на нашу почту - turag@mail.ru") }
+    document.getElementById('kn3').onclick=function(){ alert("Для того, чтобы забронировать номер, звоните на наш номер - 8-918-632-51-65, или пишите на нашу почту - turag@mail.ru") }
+</script>
     </body>
 
 </body>
